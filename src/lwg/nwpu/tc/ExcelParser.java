@@ -25,7 +25,12 @@ public class ExcelParser {
 	static private Rect[] rect;
 	private ArrayList<Rect> arrayRect = new ArrayList<Rect>();
 	public int size = 0;
-	
+	enum InfoLevel {
+		Info, Warn, Error;
+		public String getName() {
+			return this.name() + ":";
+		}
+	}
 	
 	public  ExcelParser(String file) throws InvalidFormatException, IOException {
 		HSSFWorkbook wb = new HSSFWorkbook(new FileInputStream(file));
