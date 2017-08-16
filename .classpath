@@ -15,5 +15,6 @@
 	<classpathentry kind="lib" path="lib/poi-ooxml-schemas-3.16-beta2.jar"/>
 	<classpathentry kind="lib" path="lib/poi-scratchpad-3.16-beta2.jar"/>
 	<classpathentry kind="lib" path="lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="lib/jna-4.1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
